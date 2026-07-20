@@ -1,0 +1,145 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Instagram Clone</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="app-header">
+      <div class="header-container">
+        <h1 class="logo">Instagram</h1>
+        <button class="btn-add-post" id="open-modal-post">+</button>
+      </div>
+    </header>
+
+    <!-- Conteiner Principal -->
+    <main class="main-container">
+      <!-- Seção de Stories -->
+      <section class="stories-container">
+        <div class="story">
+          <div class="story-border">
+            <img
+              src="https://picsum.photos/100/100?random=50"
+              alt="Seu Story"
+              class="story-img"
+            />
+          </div>
+          <span class="story-username">Seu Story</span>
+        </div>
+
+        <div class="story">
+          <div class="story-border">
+            <img
+              src="https://picsum.photos/100/100?random=11"
+              alt="pedro.henrique"
+              class="story-img"
+            />
+          </div>
+          <span class="story-username">pedro.h</span>
+        </div>
+
+        <div class="story">
+          <div class="story-border">
+            <img
+              src="https://picsum.photos/100/100?random=12"
+              alt="tiago_mello"
+              class="story-img"
+            />
+          </div>
+          <span class="story-username">tiago_mello</span>
+        </div>
+
+        <div class="story">
+          <div class="story-border">
+            <img
+              src="https://picsum.photos/100/100?random=13"
+              alt="gusta_silva"
+              class="story-img"
+            />
+          </div>
+          <span class="story-username">gusta_silva</span>
+        </div>
+
+        <div class="story">
+          <div class="story-border">
+            <img
+              src="https://picsum.photos/100/100?random=14"
+              alt="mari.alves"
+              class="story-img"
+            />
+          </div>
+          <span class="story-username">mari.alves</span>
+        </div>
+      </section>
+
+      <!-- feed de posts -->
+      <section class="feed-container" id="feed">
+        <!-- Post de Exempolo -->
+        <article class="post">
+          <!-- Cabeçalho do Post -->
+          <header class="post-header">
+            <div class="user-info">
+              <img
+                src="https://picsum.photos/100/100?random=12"
+                alt="Foto de perfil"
+                class="post-avatar"
+              />
+              <span class="post-username">tiago_mello</span>
+            </div>
+            <button class="btn-options">...</button>
+          </header>
+
+          <!-- Imagem do Post -->
+          <div class="post-image-container">
+            <img
+              src="https://picsum.photos/600/600?random=20"
+              alt="Conteúdo do post"
+              class="post-image"
+            />
+          </div>
+
+          <!-- Botões de Ação -->
+          <div class="post-actions">
+            <button class="btn-action btn-like">🤍</button>
+            <button class="btn-action">💬</button>
+          </div>
+          <!-- Informações e Comentários -->
+          <div class="post-content">
+            <p class="likes-count">
+              <strong id="likes-qty">42 </strong><span> curtidas</span>
+            </p>
+
+            <p class="post-caption">
+              <strong>tiago_mello</strong> Sábado de sol perfeito para colocar
+              as leituras em dia ☀️📖
+            </p>
+
+            <ul class="comments-list" id="comments-list">
+              <li><strong>pdro.h</strong> Que lugar sensacional! Onde fica?</li>
+              <li><strong>gusta_silva</strong> Foto pesada! 👏👏</li>
+            </ul>
+          </div>
+
+          <!-- Formulário de Comentario -->
+          <footer class="post-footer">
+            <form class="comment-form">
+              <input
+                type="text"
+                placeholder="Adicione um Comentário.."
+                class="comment-input"
+              />
+              <button type="submit" class="btn-submit">Publicar</button>
+            </form>
+          </footer>
+        </article>
+      </section>
+    </main>
+
+    <footer class="main-footer">
+      <p>Desenvolvido por <strong>Gabriel Fresta</strong></p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
