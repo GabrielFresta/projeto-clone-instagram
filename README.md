@@ -25,4 +25,4 @@ Uma recriação simplificada da interface do Instagram desenvolvida para pratica
 ## 👤 Autor
 
 Desenvolvido por *Gabriel Fresta*  
-💼 [Meu Perfil no GitHub]
+💼[Meu Perfil no GitHub](https://github.com/GabrielFresta)
